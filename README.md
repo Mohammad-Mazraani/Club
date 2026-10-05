@@ -72,17 +72,11 @@ The UI recreates the glowing midnight-dark aesthetic from the Figma blueprint:
 
 Since this project uses native web technologies without complex build steps, you can run it using any web server or directly in your browser:
 
-### Method 1: Using Python (Recommended)
-Open a terminal in the project directory:
-```bash
-python -m http.server 3000
-```
-Then open `http://localhost:3000` in your web browser.
 
-### Method 2: Opening Directly in Browser
+### Method 1: Opening Directly in Browser
 Simply double-click `index.html` or drag and drop `index.html` into Google Chrome, Microsoft Edge, Firefox, or Safari.
 
-### Method 3: VS Code Live Server Extension
+### Method 2: VS Code Live Server Extension
 Open the `computer-science-portal` folder in VS Code, right-click `index.html`, and select **Open with Live Server**.
 
 ---
@@ -90,3 +84,6 @@ Open the `computer-science-portal` folder in VS Code, right-click `index.html`, 
 ## 📄 License & Attribution
 
 Designed and created for the Computer Science Department landing page. All rights reserved.
+=======
+# Club
+
