@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Computer Science Degree | Build the Technology that Shapes Tomorrow</title>
+  <meta name="description" content="Explore our 3-year Bachelor of Science in Computer Science program. Learn programming, algorithms, AI, cybersecurity, databases, software engineering, and web development.">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Fira+Code:wght@400;600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- FontAwesome Icons CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <!-- CSS Stylesheets (Modular Design System) -->
+  <link rel="stylesheet" href="assets/css/variables.css">
+  <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="stylesheet" href="assets/css/components.css">
+  <link rel="stylesheet" href="assets/css/sections.css">
+  <link rel="stylesheet" href="assets/css/animations.css">
+</head>
+<body>
+
+  <!-- ==========================================
+       HEADER & NAVIGATION BAR
+       ========================================== -->
+  <header class="navbar" id="navbar">
+    <div class="container">
+      <a href="#hero" class="brand-logo" id="brand-logo">
+        <span class="logo-icon">CC</span>
+        <span>Campus Connect</span>
+      </a>
+
+      <nav class="nav-menu" id="nav-menu">
+        <a href="#hero" class="nav-link active">Home</a>
+        <a href="#program" class="nav-link">Program</a>
+        <a href="#curriculum" class="nav-link">Curriculum</a>
+        <a href="#campus" class="nav-link">Campus Connect</a>
+        <a href="#careers" class="nav-link">Careers</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="btn-icon" id="nav-search-btn" aria-label="Quick Search">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ==========================================
+         1. HERO SECTION
+         ========================================== -->
+    <section class="hero-section" id="hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="hero-badge-wrap">
+            <span class="badge-pill badge-outline">
+              <i class="fa-solid fa-graduation-cap"></i> BACHELOR OF SCIENCE
+            </span>
+          </div>
+
+          <h1 class="hero-title">
+            Computer <span>Science</span>
+          </h1>
+
+          <p class="hero-subtitle">
+            Build the technology that shapes tomorrow.
+          </p>
+
+          <p class="hero-description">
+            Learn the fundamentals of Computer Science through coding, problem-solving, and challenges.
+          </p>
+
+          <div class="hero-ctas">
+            <a href="#curriculum" class="btn btn-primary">
+              Explore Curriculum <i class="fa-solid fa-arrow-right"></i>
+            </a>
+            <a href="#campus" class="btn btn-secondary">
+              Discover Campus Life
+            </a>
+          </div>
+
+          <div class="hero-features">
+            <div class="hero-feature-item">
+              <i class="fa-solid fa-laptop-code hero-feature-icon"></i>
+              <span>Hands-on Learning</span>
+            </div>
+            <div class="hero-feature-item">
+              <i class="fa-solid fa-network-wired hero-feature-icon"></i>
+              <span>Industry Connections</span>
+            </div>
+            <div class="hero-feature-item">
+              <i class="fa-solid fa-microchip hero-feature-icon"></i>
+              <span>Modern Facilities</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Visual Right Side -->
+        <div class="hero-visual">
+          <div class="hero-art-wrapper">
+            <!-- Code snippet floating window -->
+            <div class="code-floating-card animate-float">
+              <div><span class="code-keyword">def</span> <span class="code-func">solve</span>():</div>
+              <div style="padding-left: 1.25rem;">
+                <span class="code-keyword">for</span> i <span class="code-keyword">in</span> <span class="code-func">range</span>(10):
+              </div>
+              <div style="padding-left: 2.5rem;">
+                <span class="code-func">print</span>(<span class="code-str">"Build the future"</span>)<span class="code-cursor"></span>
+              </div>
+            </div>
+
+            <!-- SVG Laptop Visual Representation with Neon Glows -->
+            <svg viewBox="0 0 500 380" fill="none" xmlns="http://www.w3.org/2000/svg" style="width: 100%; filter: drop-shadow(0 20px 40px rgba(0, 242, 254, 0.2));">
+              <!-- Glow backdrop -->
+              <circle cx="250" cy="180" r="140" fill="url(#hero-glow)" opacity="0.4"/>
+              
+              <!-- Floating 3D Geometric shapes -->
+              <polygon points="80,60 120,40 140,80 100,100" fill="url(#poly-grad-1)" opacity="0.7" class="animate-float-reverse"/>
+              <polygon points="400,240 440,210 460,260 420,280" fill="url(#poly-grad-2)" opacity="0.6" class="animate-float"/>
+
+              <!-- Laptop Screen Base -->
+              <rect x="90" y="80" width="320" height="200" rx="12" fill="#0f172a" stroke="url(#cyan-stroke)" stroke-width="2"/>
+              <rect x="100" y="90" width="300" height="180" rx="6" fill="#090d16"/>
+              
+              <!-- Code Lines inside Screen -->
+              <rect x="120" y="115" width="120" height="8" rx="4" fill="#00f2fe" opacity="0.9"/>
+              <rect x="120" y="135" width="180" height="8" rx="4" fill="#8b5cf6" opacity="0.7"/>
+              <rect x="140" y="155" width="150" height="8" rx="4" fill="#38bdf8" opacity="0.8"/>
+              <rect x="140" y="175" width="200" height="8" rx="4" fill="#4ade80" opacity="0.7"/>
+              <rect x="120" y="195" width="90" height="8" rx="4" fill="#f43f5e" opacity="0.8"/>
+
+              <!-- Laptop Base Keyboard Stand -->
+              <path d="M50 280 L450 280 L470 305 C470 310 465 315 455 315 L45 315 C35 315 30 310 30 305 Z" fill="#1e293b" stroke="url(#cyan-stroke)" stroke-width="1.5"/>
+              <!-- Trackpad -->
+              <rect x="210" y="288" width="80" height="18" rx="4" fill="#0f172a" stroke="rgba(255,255,255,0.1)"/>
+              
+              <!-- Gradient Definitions -->
+              <defs>
+                <radialGradient id="hero-glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(250 180) scale(140)">
+                  <stop stop-color="#00f2fe"/>
+                  <stop offset="1" stop-color="#080c14" stop-opacity="0"/>
+                </radialGradient>
+                <linearGradient id="cyan-stroke" x1="0" y1="0" x2="500" y2="300">
+                  <stop stop-color="#00f2fe"/>
+                  <stop offset="1" stop-color="#8b5cf6"/>
+                </linearGradient>
+                <linearGradient id="poly-grad-1" x1="0" y1="0" x2="1" y2="1">
+                  <stop stop-color="#00f2fe" stop-opacity="0.8"/>
+                  <stop offset="1" stop-color="#00c6ff" stop-opacity="0.2"/>
+                </linearGradient>
+                <linearGradient id="poly-grad-2" x1="0" y1="0" x2="1" y2="1">
+                  <stop stop-color="#8b5cf6" stop-opacity="0.8"/>
+                  <stop offset="1" stop-color="#a855f7" stop-opacity="0.2"/>
+                </linearGradient>
+              </defs>
+            </svg>
+
+            <!-- Floating action tag -->
+            <div class="floating-action-tag">
+              <span class="tag-title">Code Build Create</span>
+              <span class="tag-arrow"><i class="fa-solid fa-arrow-right-long"></i></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         2. PROGRAM AT A GLANCE (STATS)
+         ========================================== -->
+    <section class="section stats-section" id="program">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Program at a Glance</h2>
+          <p class="section-subtitle">Everything you need to know about the Computer Science major.</p>
+        </div>
+
+        <div class="stats-grid">
+          <!-- Stat 1 -->
+          <div class="stat-card">
+            <i class="fa-regular fa-calendar-days stat-icon"></i>
+            <div class="stat-value">3</div>
+            <div class="stat-label">Years</div>
+          </div>
+
+          <!-- Stat 2 -->
+          <div class="stat-card">
+            <i class="fa-solid fa-book-open stat-icon"></i>
+            <div class="stat-value">6</div>
+            <div class="stat-label">Semesters</div>
+          </div>
+
+          <!-- Stat 3 -->
+          <div class="stat-card">
+            <i class="fa-solid fa-layer-group stat-icon"></i>
+            <div class="stat-value">180</div>
+            <div class="stat-label">Total Credits</div>
+          </div>
+
+          <!-- Stat 4 -->
+          <div class="stat-card">
+            <i class="fa-solid fa-graduation-cap stat-icon"></i>
+            <div class="stat-value">40+</div>
+            <div class="stat-label">Courses</div>
+          </div>
+
+          <!-- Stat 5 -->
+          <div class="stat-card">
+            <i class="fa-solid fa-infinity stat-icon"></i>
+            <div class="stat-value">∞</div>
+            <div class="stat-label">Possibilities</div>
+          </div>
+
+          <!-- Text Block Right -->
+          <div class="stats-summary-text">
+            The Computer Science program provides students with a strong foundation in computing while allowing them to explore modern areas such as artificial intelligence, cybersecurity, web development, software engineering and more.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         3. CURRICULUM SECTION
+         ========================================== -->
+    <section class="section" id="curriculum">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">
+            <i class="fa-solid fa-cubes" style="color:var(--color-primary); font-size:1.8rem;"></i>
+            Curriculum
+          </h2>
+          <p class="section-subtitle">Explore the courses for each year and semester. Click on a course to view details.</p>
+        </div>
+
+        <!-- Filter controls bar -->
+        <div class="curriculum-filters">
+          <div class="search-box">
+            <i class="fa-solid fa-magnifying-glass search-icon"></i>
+            <input type="text" id="curriculum-search" placeholder="Search courses...">
+          </div>
+
+          <div class="filter-group">
+            <select class="filter-select" id="filter-year" aria-label="Filter by Year">
+              <option value="all">Year: All</option>
+              <option value="1">Year 1</option>
+              <option value="2">Year 2</option>
+              <option value="3">Year 3</option>
+            </select>
+
+            <select class="filter-select" id="filter-semester" aria-label="Filter by Semester">
+              <option value="all">Semester: All</option>
+              <option value="1">Semester 1</option>
+              <option value="2">Semester 2</option>
+            </select>
+
+            <select class="filter-select" id="filter-category" aria-label="Filter by Category">
+              <option value="all">Category: All</option>
+              <option value="Core">Core</option>
+              <option value="Math">Math</option>
+              <option value="Systems">Systems</option>
+              <option value="AI/ML">AI & Machine Learning</option>
+              <option value="Web">Web & Mobile</option>
+              <option value="Security">Security</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- 3 Columns (Year 1, Year 2, Year 3) -->
+        <div class="curriculum-grid">
+          
+          <!-- COLUMN 1: YEAR 1 -->
+          <div class="year-column year-1">
+            <div class="year-header">
+              <div class="year-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+              <div>
+                <h3 class="year-title">Year 1</h3>
+                <p class="year-subtitle">Foundations</p>
+                <p style="font-size:0.75rem; color:var(--color-text-subtle); margin-top:4px;">Build your core knowledge and programming skills.</p>
+              </div>
+            </div>
+
+            <!-- Semester 1 -->
+            <div class="semester-block">
+              <div class="semester-header">
+                <span class="semester-title"><i class="fa-solid fa-box-archive" style="color:var(--color-year1);"></i> Semester 1</span>
+                <span class="credit-badge">17 Credits</span>
+              </div>
+              <div class="course-list" id="courses-y1-s1"></div>
+            </div>
+
+            <div style="text-align:center; color:var(--color-year1); font-size:1rem;"><i class="fa-solid fa-arrow-down"></i></div>
+
+            <!-- Semester 2 -->
+            <div class="semester-block">
+              <div class="semester-header">
+                <span class="semester-title"><i class="fa-solid fa-box-archive" style="color:var(--color-year1);"></i> Semester 2</span>
+                <span class="credit-badge">16 Credits</span>
+              </div>
+              <div class="course-list" id="courses-y1-s2"></div>
+            </div>
+
+            <div class="year-total">
+              <span><i class="fa-solid fa-shapes"></i> Year 1 Total</span>
+              <span id="credits-y1" style="color:var(--color-year1);">33 Credits</span>
+            </div>
+          </div>
+
+          <!-- COLUMN 2: YEAR 2 -->
+          <div class="year-column year-2">
+            <div class="year-header">
+              <div class="year-icon"><div class="year-icon-bg"><i class="fa-solid fa-cubes-stacked"></i></div></div>
+              <div>
+                <h3 class="year-title">Year 2</h3>
+                <p class="year-subtitle">Core Computing</p>
+                <p style="font-size:0.75rem; color:var(--color-text-subtle); margin-top:4px;">Deepen your technical knowledge and build real-world skills.</p>
+              </div>
+            </div>
+
+            <!-- Semester 1 -->
+            <div class="semester-block">
+              <div class="semester-header">
+                <span class="semester-title"><i class="fa-solid fa-box-archive" style="color:var(--color-year2);"></i> Semester 1</span>
+                <span class="credit-badge">16 Credits</span>
+              </div>
+              <div class="course-list" id="courses-y2-s1"></div>
+            </div>
+
+            <div style="text-align:center; color:var(--color-year2); font-size:1rem;"><i class="fa-solid fa-arrow-down"></i></div>
+
+            <!-- Semester 2 -->
+            <div class="semester-block">
+              <div class="semester-header">
+                <span class="semester-title"><i class="fa-solid fa-box-archive" style="color:var(--color-year2);"></i> Semester 2</span>
+                <span class="credit-badge">17 Credits</span>
+              </div>
+              <div class="course-list" id="courses-y2-s2"></div>
+            </div>
+
+            <div class="year-total">
+              <span><i class="fa-solid fa-shapes"></i> Year 2 Total</span>
+              <span id="credits-y2" style="color:var(--color-year2);">33 Credits</span>
+            </div>
+          </div>
+
+          <!-- COLUMN 3: YEAR 3 -->
+          <div class="year-column year-3">
+            <div class="year-header">
+              <div class="year-icon"><i class="fa-solid fa-brain"></i></div>
+              <div>
+                <h3 class="year-title">Year 3</h3>
+                <p class="year-subtitle">Advanced & Specialization</p>
+                <p style="font-size:0.75rem; color:var(--color-text-subtle); margin-top:4px;">Explore advanced topics and specialize in your interests.</p>
+              </div>
+            </div>
+
+            <!-- Semester 1 -->
+            <div class="semester-block">
+              <div class="semester-header">
+                <span class="semester-title"><i class="fa-solid fa-box-archive" style="color:var(--color-year3);"></i> Semester 1</span>
+                <span class="credit-badge">16 Credits</span>
+              </div>
+              <div class="course-list" id="courses-y3-s1"></div>
+            </div>
+
+            <div style="text-align:center; color:var(--color-year3); font-size:1rem;"><i class="fa-solid fa-arrow-down"></i></div>
+
+            <!-- Semester 2 -->
+            <div class="semester-block">
+              <div class="semester-header">
+                <span class="semester-title"><i class="fa-solid fa-box-archive" style="color:var(--color-year3);"></i> Semester 2</span>
+                <span class="credit-badge">17 Credits</span>
+              </div>
+              <div class="course-list" id="courses-y3-s2"></div>
+            </div>
+
+            <div class="year-total">
+              <span><i class="fa-solid fa-shapes"></i> Year 3 Total</span>
+              <span id="credits-y3" style="color:var(--color-year3);">33 Credits</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         4. CAMPUS CONNECT SECTION
+         ========================================== -->
+    <section class="section" id="campus" style="background: rgba(15, 23, 42, 0.2);">
+      <div class="container">
+        <div class="campus-header">
+          <div>
+            <h2 class="section-title">
+              <i class="fa-solid fa-building-columns" style="color:var(--color-primary);"></i> Campus Connect
+            </h2>
+            <p class="section-subtitle">Join a vibrant community and make the most of your university experience.</p>
+          </div>
+          <div class="decorative-text">
+            More than just a degree <i class="fa-solid fa-arrow-trend-up"></i>
+          </div>
+        </div>
+
+        <div class="campus-grid">
+          <!-- Card 1: Labs -->
+          <div class="campus-card" data-campus-id="labs">
+            <div class="campus-card-icon"><i class="fa-solid fa-desktop"></i></div>
+            <h3 class="campus-card-title">Labs</h3>
+            <p class="campus-card-desc">Modern labs with high-performance computers, specialized software and research equipment.</p>
+            <span class="campus-card-link">Learn more <i class="fa-solid fa-arrow-right"></i></span>
+          </div>
+
+          <!-- Card 2: Clubs -->
+          <div class="campus-card" data-campus-id="clubs">
+            <div class="campus-card-icon"><i class="fa-solid fa-users-gear"></i></div>
+            <h3 class="campus-card-title">Clubs</h3>
+            <p class="campus-card-desc">Join student clubs like CS Club, AI Club, Cybersecurity Club and Robotics Club.</p>
+            <span class="campus-card-link">Learn more <i class="fa-solid fa-arrow-right"></i></span>
+          </div>
+
+          <!-- Card 3: Events -->
+          <div class="campus-card" data-campus-id="events">
+            <div class="campus-card-icon"><i class="fa-solid fa-calendar-days"></i></div>
+            <h3 class="campus-card-title">Events</h3>
+            <p class="campus-card-desc">Tech talks, workshops, hackathons, career days and guest speakers from industry experts.</p>
+            <span class="campus-card-link">Learn more <i class="fa-solid fa-arrow-right"></i></span>
+          </div>
+
+          <!-- Card 4: Competitions -->
+          <div class="campus-card" data-campus-id="competitions">
+            <div class="campus-card-icon"><i class="fa-solid fa-trophy"></i></div>
+            <h3 class="campus-card-title">Competitions</h3>
+            <p class="campus-card-desc">CTFs, programming contests, hackathons, robotics and AI challenges.</p>
+            <span class="campus-card-link">Learn more <i class="fa-solid fa-arrow-right"></i></span>
+          </div>
+
+          <!-- Card 5: Community -->
+          <div class="campus-card" data-campus-id="community">
+            <div class="campus-card-icon"><i class="fa-solid fa-people-roof"></i></div>
+            <h3 class="campus-card-title">Community</h3>
+            <p class="campus-card-desc">Peer learning, study groups, mentorship and student projects.</p>
+            <span class="campus-card-link">Learn more <i class="fa-solid fa-arrow-right"></i></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         5. SKILLS & CAREER PATHS SECTION
+         ========================================== -->
+    <section class="section" id="careers">
+      <div class="container dual-section-grid">
+        
+        <!-- Left Side: Skills You'll Build -->
+        <div>
+          <div class="section-header" style="margin-bottom:1.5rem;">
+            <h2 class="section-title" style="font-size:1.75rem;">
+              <i class="fa-solid fa-laptop-code" style="color:var(--color-primary);"></i> Skills You'll Build
+            </h2>
+            <p class="section-subtitle" style="font-size:0.95rem;">Gain in-demand skills for a successful career in tech.</p>
+          </div>
+
+          <div class="skills-grid">
+            <div class="skill-card">
+              <div class="card-top">
+                <div class="card-icon"><i class="fa-solid fa-code"></i></div>
+                <div class="card-title">Programming</div>
+              </div>
+              <div class="card-subtext">C • Java • Python • JS</div>
+            </div>
+
+            <div class="skill-card">
+              <div class="card-top">
+                <div class="card-icon"><i class="fa-solid fa-database"></i></div>
+                <div class="card-title">Databases</div>
+              </div>
+              <div class="card-subtext">SQL • NoSQL</div>
+            </div>
+
+            <div class="skill-card">
+              <div class="card-top">
+                <div class="card-icon"><i class="fa-solid fa-globe"></i></div>
+                <div class="card-title">Web Development</div>
+              </div>
+              <div class="card-subtext">HTML • CSS • React</div>
+            </div>
+
+            <div class="skill-card">
+              <div class="card-top">
+                <div class="card-icon"><i class="fa-solid fa-network-wired"></i></div>
+                <div class="card-title">Networking</div>
+              </div>
+              <div class="card-subtext">TCP/IP • DNS</div>
+            </div>
+
+            <div class="skill-card">
+              <div class="card-top">
+                <div class="card-icon"><i class="fa-solid fa-microchip"></i></div>
+                <div class="card-title">AI & Machine Learning</div>
+              </div>
+              <div class="card-subtext">Python • TensorFlow</div>
+            </div>
+
+            <div class="skill-card">
+              <div class="card-top">
+                <div class="card-icon"><i class="fa-solid fa-shield-halved"></i></div>
+                <div class="card-title">Cybersecurity</div>
+              </div>
+              <div class="card-subtext">Security • Cryptography</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Side: Career Paths -->
+        <div>
+          <div class="section-header" style="margin-bottom:1.5rem;">
+            <h2 class="section-title" style="font-size:1.75rem;">
+              <i class="fa-solid fa-briefcase" style="color:var(--color-accent-purple);"></i> Career Paths
+            </h2>
+            <p class="section-subtitle" style="font-size:0.95rem;">Where can a Computer Science graduate go?</p>
+          </div>
+
+          <div class="careers-grid">
+            <div class="career-card">
+              <div class="card-top">
+                <div class="card-icon" style="color:var(--color-accent-purple); background:rgba(139,92,246,0.1);"><i class="fa-solid fa-laptop-code"></i></div>
+                <div class="card-title">Software Engineer</div>
+              </div>
+              <div class="card-subtext">Build great software</div>
+            </div>
+
+            <div class="career-card">
+              <div class="card-top">
+                <div class="card-icon" style="color:var(--color-accent-purple); background:rgba(139,92,246,0.1);"><i class="fa-solid fa-code"></i></div>
+                <div class="card-title">Web Developer</div>
+              </div>
+              <div class="card-subtext">Create the web</div>
+            </div>
+
+            <div class="career-card">
+              <div class="card-top">
+                <div class="card-icon" style="color:var(--color-accent-purple); background:rgba(139,92,246,0.1);"><i class="fa-solid fa-mobile-screen-button"></i></div>
+                <div class="card-title">Mobile Developer</div>
+              </div>
+              <div class="card-subtext">Apps for everyone</div>
+            </div>
+
+            <div class="career-card">
+              <div class="card-top">
+                <div class="card-icon" style="color:var(--color-accent-purple); background:rgba(139,92,246,0.1);"><i class="fa-solid fa-robot"></i></div>
+                <div class="card-title">AI / ML Engineer</div>
+              </div>
+              <div class="card-subtext">Build intelligent systems</div>
+            </div>
+
+            <div class="career-card">
+              <div class="card-top">
+                <div class="card-icon" style="color:var(--color-accent-purple); background:rgba(139,92,246,0.1);"><i class="fa-solid fa-user-shield"></i></div>
+                <div class="card-title">Cybersecurity Specialist</div>
+              </div>
+              <div class="card-subtext">Protect systems</div>
+            </div>
+
+            <div class="career-card">
+              <div class="card-top">
+                <div class="card-icon" style="color:var(--color-accent-purple); background:rgba(139,92,246,0.1);"><i class="fa-solid fa-server"></i></div>
+                <div class="card-title">Data Engineer</div>
+              </div>
+              <div class="card-subtext">Work with data</div>
+            </div>
+
+            <div class="career-card">
+              <div class="card-top">
+                <div class="card-icon" style="color:var(--color-accent-purple); background:rgba(139,92,246,0.1);"><i class="fa-solid fa-cloud"></i></div>
+                <div class="card-title">Cloud Engineer</div>
+              </div>
+              <div class="card-subtext">Manage cloud infrastructure</div>
+            </div>
+
+            <div class="career-card">
+              <div class="card-top">
+                <div class="card-icon" style="color:var(--color-accent-purple); background:rgba(139,92,246,0.1);"><i class="fa-solid fa-database"></i></div>
+                <div class="card-title">Database Developer</div>
+              </div>
+              <div class="card-subtext">Scale the future</div>
+            </div>
+          </div>
+
+          <div style="text-align:right; margin-top:1.25rem;">
+            <a href="#curriculum" style="font-size:0.85rem; font-weight:700; color:var(--color-primary);">
+              Explore all career paths <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- ==========================================
+       FOOTER
+       ========================================== -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <a href="#hero" class="brand-logo">
+        <span class="logo-icon">CC</span>
+        <span>Campus Connect</span>
+      </a>
+
+      <div class="nav-menu" style="transform:none; position:static; padding:0; background:none;">
+        <a href="#hero" class="nav-link">Home</a>
+        <a href="#program" class="nav-link">Program</a>
+        <a href="#curriculum" class="nav-link">Curriculum</a>
+        <a href="#campus" class="nav-link">Campus Connect</a>
+        <a href="#careers" class="nav-link">Careers</a>
+      </div>
+
+      <div class="footer-socials">
+        <a href="https://linkedin.com" target="_blank" rel="noopener" class="social-link" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="https://github.com" target="_blank" rel="noopener" class="social-link" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        <a href="https://campusconnect.university.edu" target="_blank" rel="noopener" class="social-link" aria-label="Website"><i class="fa-solid fa-globe"></i></a>
+        <a href="https://youtube.com" target="_blank" rel="noopener" class="social-link" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+      </div>
+    </div>
+
+    <div class="container" style="margin-top:2rem; padding-top:1.5rem; border-top:1px solid rgba(255,255,255,0.05); text-align:center;">
+      <p class="copyright">&copy; 2026 Campus Connect. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- ==========================================
+       GLOBAL ACCESSIBLE MODAL DIALOG
+       ========================================== -->
+  <div class="modal-overlay" id="global-modal-overlay" aria-hidden="true" role="dialog">
+    <div class="modal-content">
+      <button class="modal-close" id="modal-close-btn" aria-label="Close dialog">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+
+      <div class="modal-header">
+        <h3 class="modal-title" id="modal-title">Course Title</h3>
+        <div class="modal-meta" id="modal-meta">Meta information</div>
+      </div>
+
+      <div class="modal-body" id="modal-body">
+        Body text content...
+      </div>
+    </div>
+  </div>
+
+  <!-- JavaScript Entry Point Files -->
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/modal.js"></script>
+  <script src="assets/js/curriculum.js"></script>
+  <script src="assets/js/campus.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
