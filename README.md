@@ -84,6 +84,4 @@ Open the `computer-science-portal` folder in VS Code, right-click `index.html`, 
 ## 📄 License & Attribution
 
 Designed and created for the Computer Science Department landing page. All rights reserved.
-=======
 # Club
-
